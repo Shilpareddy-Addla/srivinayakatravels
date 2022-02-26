@@ -1,0 +1,38 @@
+    <div class="container">
+    <h1>Booking Form</h1>
+<div class="row">
+    <div class="card-deck">
+    <div class="card">
+    <div class="col-6-xs-sm-md-lg">
+    <form #ref="ngForm" (ngSubmit)="sendData(ref)" class="box">
+        <div class="form-group">
+        <label for="name" id="n" class="control-label">Enter your name </label>
+        <input type="text" name="name" id="n" class="form-control" ngModel>
+        </div>
+        <div class="form-group">
+        <label for="number" id="nu" class="control-label">Enter your contact number</label>
+        <input type="number" id="nu" class="form-control" ngModel>
+        </div>
+        <div class="form-group">
+        <label for="address" id="add" class="control-label">Enter your Address</label>
+        <input type="textarea" name="address" id="add" class="form-control" col="8" row="10" ngModel>
+        </div>
+        <div class="form-group">
+        <label for="capacity" id="c" class="control-label">Enter the seating capacity </label>
+        <input type="number" name="capacity" id="c" class="form-control" ngModel> 
+        </div>
+        <div class="form-group">
+        <label for="place" id="p" class="control-label">Enter place<br>
+         From
+        </label>
+        <input type="text" name="place" id="p" class="form-control" ngModel>
+        To
+        <input type="text" name="place" id="p" class="form-control" ngModel><br>
+        </div>
+        <button type="submit" role="button" name="submit" class="btn btn-info">submit</button>
+    </form>
+</div>
+</div>
+</div>
+</div>
+</div>

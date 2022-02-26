@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: darkgreen;
+}
+form{
+    text-align: center;
+    padding:20px 80px;
+}
+button{
+border-radius: 20px;
+}
+botton :hover
+{
+background-color: antiquewhite ;
+color: darksalmon;
+}
+.container
+{
+    padding-top: 20px;
+}
+.row
+{
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card
+{
+    background-color:rgb(204, 174, 120);
+    color:blueviolet;
+    
+}
+input 
+{
+border-radius: 20px;
+background-color:cyan;
+border:2px solid gray;
+}

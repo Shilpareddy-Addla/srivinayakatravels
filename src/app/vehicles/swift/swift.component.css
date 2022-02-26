@@ -1,0 +1,16 @@
+.row
+{
+text-align:center ;
+color: chocolate;
+}
+.card
+{
+    background-color:darkgray;
+}
+.card :hover{
+   background-color:red;
+   color:aqua;
+} 
+button{
+border-radius: 20px;
+}

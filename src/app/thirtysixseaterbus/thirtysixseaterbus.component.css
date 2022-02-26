@@ -1,0 +1,17 @@
+
+.row
+{
+text-align:center ;
+color:blue;
+}
+.card
+{
+    background-color:aquamarine;
+    }
+.card :hover{
+   background-color:red;
+   color:aqua;
+} 
+button{
+border-radius: 20px;
+}

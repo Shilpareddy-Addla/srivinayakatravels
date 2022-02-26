@@ -1,0 +1,30 @@
+h4{
+    margin-top: 20px;
+    text-align: center;
+    color:gold;
+}
+.container
+{
+    padding-top: 10px;
+}
+.row
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    text-align: center;
+    padding:20px 40px;
+}
+.card
+{
+    background-color:darkkhaki;
+    color:black;
+    
+}
+button{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}

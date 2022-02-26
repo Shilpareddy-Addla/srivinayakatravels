@@ -1,0 +1,22 @@
+.container
+{
+    margin-top: 50px;
+}
+.jumbotron
+{
+    border-radius: 20px;
+    border:2px dotted bisque;
+    background-color:rgba(105, 105, 105, 0.63);
+}
+.jumbotron :hover
+{
+
+transform: matrix();
+}
+p{
+    text-align: center;
+    color: brown;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-weight: bold;
+}

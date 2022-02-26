@@ -1,0 +1,93 @@
+footer{
+    
+    background-color: darkcyan;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #fff !important;
+    color: #000 !important;
+    overflow-x: hidden !important
+}
+
+html {
+    overflow-x: hidden !important
+}
+
+.card-0 {
+    overflow-x: hidden !important;
+    padding: auto 0px auto 0px !important;
+    background-color: #000F2E !important;
+    color: #FFFFFF !important;
+    border-radius: 0;
+    margin: 0 !important;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right calc(70px + (120 - 70) * ((100vw - 320px) / (1600 - 320)))  !important
+}
+
+h5 {
+    font-size: calc(16px + (21 - 16) * ((100vw - 360px) / (1600 - 360))) !important
+}
+input {
+    border-radius: 2px !important;
+    background: transparent !important;
+    color: #FFFFFF !important
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoYoutube:hover i,
+.social-network a.icoSkype:hover i,
+.social-network a.icoWhatsapp:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+.social-network li a{
+    margin-left: 200px;
+}
+
+
+ 
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Sri Vinayaka Travels</h1>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img src="./assets/images/tours.jpg" alt="tour" width="100px" height="100px" class="rounded-circle">
+    </a>
+
+    <!-- Links -->
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home"><i style="margin-right: 10px;" class="fas fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/enquiry"> <i style="margin-right: 10px;" class="fas fa-info-circle"></i>Enquiry</a>
+          </li>
+          <!-- Dropdown -->
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" routerLink="/vehicles" id="navbardrop" data-toggle="dropdown">
+              <i style="margin-right: 10px;" class="fa fa-car" aria-hidden="true"></i>Vehicles
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" routerLink="/vehicles/swift">swift</a>
+              <a class="dropdown-item" routerLink="/vehicles/innova">Innova</a>
+              <a class="dropdown-item" routerLink="/vehicles/tempo17seater">tempo17seater</a>
+              <a class="dropdown-item" routerLink="/vehicles/tempo26seater">tempo26seater</a>
+              <a class="dropdown-item" routerLink="/vehicles/thirtysixseaterbus">thirtysixseaterbus</a>
+            </div>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" routerLink="/contactus"> <i style="margin-right: 10px;" class="fa fa-address-book" aria-hidden="true"></i>Contactus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/bookyourtrip">Bookyourtrip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/Signin"><i style="margin-right: 10px;" class="fas fa-sign-in-alt"></i>Signin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/Signup"><i style="margin-right: 10px;" class="fa fa-registered" aria-hidden="true"></i>Signup</a>
+          </li>
+           </ul>
+    </nav>
+  <router-outlet></router-outlet>
+</body>
+<app-footer></app-footer>
+
+</html>
